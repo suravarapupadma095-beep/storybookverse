@@ -21,17 +21,20 @@ export default function Home() {
       }}>
         Enter the world of suspense, mystery and legends.
       </p>
-      <button style={{
-        marginTop: "20px",
-        padding: "15px 30px",
-        backgroundColor: "#8b5cf6",
-        border: "none",
-        color: "white",
-        borderRadius: "10px",
-        fontSize: "18px"
-      }}>
-        Read Stories
-      </button>
+      <a href="/stories">
+  <button style={{
+    marginTop: "20px",
+    padding: "15px 30px",
+    backgroundColor: "#8b5cf6",
+    border: "none",
+    color: "white",
+    borderRadius: "10px",
+    fontSize: "18px",
+    cursor: "pointer"
+  }}>
+    Read Stories
+  </button>
+</a>
 
     </div>
   )
