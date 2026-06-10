@@ -21,7 +21,6 @@ export default function Home() {
       }}>
         Enter the world of suspense, mystery and legends.
       </p>
-
       <button style={{
         marginTop: "20px",
         padding: "15px 30px",
