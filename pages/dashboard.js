@@ -1,4 +1,5 @@
-export default function Dashboard() {
+
+  export default function Dashboard() {
 return (
 <div
 style={{
@@ -124,37 +125,8 @@ fontFamily: "Arial",
       Start Quiz
     </button>
   </div>
-
-  {/* Audio Books */}
-  <div
-    style={{
-      marginTop: "40px",
-      backgroundColor: "#1e293b",
-      padding: "20px",
-      borderRadius: "15px",
-    }}
-  >
-    <h2>🎧 Audio Stories</h2>
-
-    <p style={{ color: "#cbd5e1" }}>
-      Listen to suspense stories anytime.
-    </p>
-
-    <button
-      style={{
-        marginTop: "10px",
-        padding: "10px 20px",
-        backgroundColor: "#f43f5e",
-        border: "none",
-        borderRadius: "10px",
-        color: "white",
-      }}
-    >
-      Listen Now
-    </button>
-  </div>
 </div>
-```
 
 );
+
 }
