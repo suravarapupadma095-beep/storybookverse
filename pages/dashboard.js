@@ -15,7 +15,7 @@ fontFamily: "Arial",
 
 ```
   <p style={{ color: "#cbd5e1" }}>
-    Welcome back reader 👋
+    Welcome back reader 🔥
   </p>
 
   {/* Stats Section */}
